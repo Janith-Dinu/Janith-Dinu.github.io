@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food</title>
+</head>
+<body>
+    <div class='home'>
+        <nav class="navbar">
+            <li class='nav-item' style="font-size: 30px; font-family: 'cooper black', 'Courier New', Courier, monospace;">
+                Dinu Restaurant
+            </li>
+            <ul class='navbar-nav'>
+                
+                <li class='nav-item'>
+                    <a class='nav-link' href="index.html">Home</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="Food.html">Food item</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="AboutUs.html">About us</a>
+                </li>                                   
+                <li class='nav-item'>
+                    <a class='nav-link' href="contactUs.html">Contact us</a>
+                </li>
+                <li class='nav-item'>
+                    <div class="nav-link">
+                        <form class='input-group' action="#">
+                            <input class='search-bar' type="search" name='search' placeholder='Search...'/>
+                            <button class='btn'>Search</button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <style>
+
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        
+        .card{
+            width: 300px;
+            height: 400px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .card img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .card-info{
+            padding: 20px;
+        }
+        
+        .card-info h2{
+            font-size: 24px;
+            margin: 0;
+        }
+        
+        .card-info p{
+            font-size: 16px;
+            color: #333;
+        }
+        
+        .btnn{
+            padding: 10px 20px;
+            background-color: #f39c12;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .btnn:hover{
+            background-color: #e67e22;
+        }
+    </style>
+        
+    
+    
+
+        <div class="row">
+        
+        
+        <div class="card">
+            <img src="images/Pizza.jpg" class="" alt="..."/>
+            <div class="card-info">
+               
+                <p>Delicious pizza topped with cheese, tomato sauce, and your favorite toppings.</p>
+                <button class="btnn">Order Now</button>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/Burger.jpg" class="" alt="..."/>
+            <div class="card-info">
+                
+                <p>Delicious burger with a juicy patty, cheese, lettuce, and tomato.</p>
+                <button class="btnn">Order Now</button>
+                
+            </div>
+        </div>           
+        <div class="card">
+            <img src="images/sandwich.jpg" class="" alt="..."/>
+            <div class="card-info">
+             
+                <p>Delicious sandwich with your choice of fillings, served on fresh bread.</p>
+                <button class="btnn">Order Now</button>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/chicken nuggets.jpg" class="" alt="..."/>
+            <div class="card-info">
+            
+                <p>Delicious chicken nuggets served with your choice of dipping sauce.</p>
+                <button class="btnn">Order Now</button>
+                
+            </div>
+        </div>
+            
+        
+    </div>
+</body>
+</html>

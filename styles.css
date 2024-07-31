@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+.home {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0,0,0,0.8)), url("images/home.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-item {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.search-bar {
+  border-radius: 11rem;
+  height: 2rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.514);
+  border: none;
+  cursor: pointer;
+  color: #333;
+  margin-left: 0.5rem;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-info {
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.big-text {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.medium-text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.small-text {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.specials, .opening-hours, .location, .contact {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.text {
+  color: white;
+  text-decoration: none;
+}
+
+.form {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.lable {
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.form-control {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.form-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.img-fluid {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.card {
+  width: 18rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.card-info {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-text {
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  color: white;
+}
+
+.topic {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
